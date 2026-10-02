@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Department of Information Technology</title>
+<style>
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body { background: #ffffff; color: #000000; font-family: "Times New Roman", serif; margin: 0 auto; padding: 10px 20px; max-width: 800px; }
+header { border-bottom: 2px solid #000; }
+nav a { margin-right: 15px; }
+table, th, td { border: 1px solid #000; border-collapse: collapse; padding: 5px; }
+footer { border-top: 1px solid #000; margin-top: 30px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Department of Information Technology</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home">
+    <h2>About the Department</h2>
+    <p>The Department of Information Technology teaches students how to build and manage computer systems. Students learn programming, databases, networking and web development, and they do practical work in our computer laboratory.</p>
+
+    <svg width="300" height="150" viewBox="0 0 300 150">
+      <title>IT laboratory</title>
+      <rect width="300" height="150" fill="#cccccc"/>
+      <rect x="20" y="90" width="180" height="8" fill="#664422"/>
+      <rect x="30" y="50" width="40" height="30" fill="#000"/>
+      <rect x="90" y="50" width="40" height="30" fill="#000"/>
+      <rect x="150" y="50" width="40" height="30" fill="#000"/>
+      <rect x="230" y="30" width="50" height="100" fill="#333"/>
+    </svg>
+    <p><i>Our IT laboratory</i></p>
+  </section>
+
+  <section id="courses">
+    <h2>Courses</h2>
+    <ul>
+      <li>Introduction to Programming</li>
+      <li>Database Systems</li>
+      <li>Computer Networks</li>
+      <li>Web Development</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>Course Code</th>
+        <th>Course Name</th>
+      </tr>
+      <tr>
+        <td>DIT 101</td>
+        <td>Introduction to Programming</td>
+      </tr>
+      <tr>
+        <td>DIT 102</td>
+        <td>Database Systems</td>
+      </tr>
+      <tr>
+        <td>DIT 201</td>
+        <td>Computer Networks</td>
+      </tr>
+      <tr>
+        <td>DIT 202</td>
+        <td>Web Development</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Student Enquiry</h2>
+    <form>
+      <p>Name:<br>
+      <input type="text" name="name"></p>
+
+      <p>Email:<br>
+      <input type="email" name="email"></p>
+
+      <p>Message:<br>
+      <textarea name="message" rows="5" cols="40"></textarea></p>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>Department of Information Technology, KCA University</p>
+</footer>
+
+</body>
+</html>
